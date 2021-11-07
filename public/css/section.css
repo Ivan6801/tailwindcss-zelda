@@ -1,0 +1,29 @@
+.header {
+    background-image: url('../assets/images/zelda-header.jpg');
+    width: 100%;
+    height: 650px;
+    /* height: 100vh; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-zelda-gif {
+    height: 180px;
+}
+
+.legend-of-zelda {
+    background-image: url('../assets/images/legend-of-zelda.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position:top;
+        height: 300px;
+    }
+}
