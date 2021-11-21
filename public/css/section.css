@@ -1,0 +1,16 @@
+.legend-of-zelda {
+  background-image: url('../img/legend-of-zelda.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-burger {
+  display: block;
+  background-image: url('../icons/menu.png');
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
